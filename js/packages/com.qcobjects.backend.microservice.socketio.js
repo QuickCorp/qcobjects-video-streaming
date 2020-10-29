@@ -35,7 +35,7 @@ const path = require("path");
 const absolutePath = path.resolve(__dirname, "./");
 const mime = require("mime");
 
-Package("com.qcobjects.backend.microservice.donothing", [
+Package("com.qcobjects.backend.microservice.socketio", [
   Class("Microservice",BackendMicroservice,{
     finishWithBody: function(stream) {},
     done: function () {

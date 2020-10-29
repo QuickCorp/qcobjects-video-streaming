@@ -37,7 +37,7 @@ Create a config.json file in the root directory of your project and add the foll
         "name": "Socket IO",
         "description": "Socket IO",
         "path": "^/socket.io/(.*)$",
-        "microservice": "com.qcobjects.backend.microservice.donothing",
+        "microservice": "com.qcobjects.backend.microservice.socketio",
         "redirect_to": "./node_modules/socket.io-client/dist/$1",
         "supported_methods": ["GET","POST","PUT"]
       }
