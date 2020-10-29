@@ -10,7 +10,7 @@ QCObjects Video Streaming App template
 The qcobjects-video-streaming template a quick start point to build a video streaming application using QCObjects and Socket.io.
 
 ```shell
-    qcobjects create --custom=qcobjects-video-streaming
+    qcobjects create --custom=qcobjects-video-streaming mynewapp
 ```
 
 Read more:
