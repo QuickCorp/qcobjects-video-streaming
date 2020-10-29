@@ -1,0 +1,31 @@
+<style>
+@import url("./css/components/button.css");
+:host{
+  place-items: center;
+  margin:-30px;
+}
+video {
+  background: white;
+  height:100%;
+  width: 100%;
+  display: block;
+}
+
+</style>
+<div >
+  <div style="min-height:300px">
+    <section class="select">
+      <label for="audioSource">Audio source: </label>
+      <select id="audioSource"></select>
+    </section>
+
+    <section class="select">
+      <label for="videoSource">Video source: </label>
+      <select id="videoSource"></select>
+    </section>
+
+    <video playsinline autoplay muted></video>
+  </div>
+</div>
+
+
