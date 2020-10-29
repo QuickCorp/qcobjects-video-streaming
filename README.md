@@ -50,6 +50,18 @@ Create a config.json file in the root directory of your project and add the foll
 }
 ```
 
+#### Set dependencies
+
+In your package.json file add the following dependencies
+
+```json
+"dependencies": {
+  "qcobjects": "latest",
+  "socket.io": "^2.3.0"
+},
+
+```
+
 Read more:
 
 [QCObjects](https://qcobjects.com)
