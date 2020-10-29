@@ -62,6 +62,12 @@ In your package.json file add the following dependencies
 
 ```
 
+#### Launch the application
+
+```shell
+> qcobjects launch app
+```
+
 Read more:
 
 [QCObjects](https://qcobjects.com)
