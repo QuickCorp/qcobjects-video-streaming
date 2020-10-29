@@ -62,6 +62,12 @@ In your package.json file add the following dependencies
 
 ```
 
+Then install everything
+
+```shell
+npm i
+```
+
 #### Launch the application
 
 ```shell
