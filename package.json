@@ -11,5 +11,5 @@
     "qcobjects": "latest",
     "socket.io": "^2.3.0"
   },
-  "version": "1.2.59"
+  "version": "1.2.60"
 }
